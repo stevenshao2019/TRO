@@ -1,0 +1,11 @@
+[Unit]
+Description=Trojan
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/trojan/trojan -c /etc/trojan/config.json
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
