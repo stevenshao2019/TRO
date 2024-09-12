@@ -5,7 +5,7 @@ wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019
 wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019/TRO/master/config.json
 chmod +x *.sh
 ./troinst.sh
-sudo apt-get install expect
+sudo apt-get install -y expect
 ./crtssl.sh
 ./trostart.sh
 
