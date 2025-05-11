@@ -1,7 +1,7 @@
 sudo apt update
 sleep 10
 sudo apt upgrade -y
-sudo apt install -y curl
+sudo DEBIAN_FRONTEND=noninteractive apt install -y curl
 sudo apt install -y certbot
 curl -LO https://github.com/trojan-gfw/trojan/releases/download/v1.16.0/trojan-1.16.0-linux-amd64.tar.xz
 tar -xvJf trojan-1.16.0-linux-amd64.tar.xz
