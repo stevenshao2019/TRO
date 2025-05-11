@@ -1,4 +1,5 @@
 sudo apt update
+sleep 10
 sudo apt upgrade -y
 sudo apt install -y curl
 sudo apt install -y certbot
