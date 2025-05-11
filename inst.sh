@@ -4,7 +4,7 @@ wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019
 wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019/TRO/master/trojan.service
 wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019/TRO/master/config.json
 chmod +x *.sh
-sleep 60
+sleep 20
 ./troinst.sh
 sudo apt-get install -y expect
 ./crtssl.sh
